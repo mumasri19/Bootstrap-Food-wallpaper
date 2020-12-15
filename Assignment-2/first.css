@@ -1,0 +1,203 @@
+.image{
+    background:url('food-wallpaper.png');
+    background-size: cover;
+    border: 1px solid gray;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.logo{
+    
+    text-align: center;
+    color:rgb(241, 42, 42);
+    font-size:90px;
+    background:rgb(255, 255, 255);
+    height:110px;
+    width:110px;
+    border-radius: 50%;
+    margin:auto;
+    margin-left:43%;
+    font-weight:bold;
+    
+}
+
+.headings{
+    text-align: center;
+    color:red;
+    font-size: 36px;
+    margin-top:50px;
+}
+
+.locationSelector{
+    top:-2px;
+    margin-left:40px;
+    margin-right:40px;
+    text-align:center;
+    margin-top:20px;
+    position: relative;
+    border: 450px;
+    margin: 100px;
+}
+
+.dropdown{
+    height:50px;
+    width:250px;
+    font-size:20px;
+    color:#192f60;
+    border: none;
+    margin-right: 34px;
+    margin-bottom: 34px;
+    float:center;
+    padding-left: 2%;
+}
+
+.search{
+    
+    left: -305px;
+    margin: 2%;
+    margin-left: 20px;
+}
+.quicksearch{
+    margin-left:30px;
+    margin-top: 35px;
+    margin-right:35px;
+    margin-bottom:-50px;
+}
+.quickSearchHeading{
+    color:red;
+    font-size:60px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:20px;
+}
+.quickSearchSubHeading{
+    color:green;
+    font-size:20px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:20px;
+    
+}
+.tileContainer{
+    height:180px;
+    width:70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 3%;
+    box-shadow: 0px 3px 15px black;
+}
+.tileComponent1{
+    width:42%;
+    float: left;
+
+    
+}
+
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:20px;
+    margin-top:80px;
+}
+.componentHeading{
+    
+    color:#192f60;
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom:50px;
+    margin-left: 12px;
+    margin-top:-52px;
+    float: left;
+}
+
+.componentSubHeading{
+    color:#192f60;
+    font-size:15px;
+    font-weight: bold;
+    margin-bottom:50px;
+    margin-left:12px;
+    margin-top:-55px;
+    float: left;
+    
+}
+.quicksearch{
+    box-shadow: 0 3px 6px black;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.heading{
+    width: 80px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+    color:blue;
+}
+@media only screen and (max-width:600px){
+    .restaurantinput{
+        height: 40px;
+        width: 240px;
+        color: #000;
+        border-radius:0px;
+        border:none;
+        font-size:15px;
+        float: left;
+    }
+    .logo{
+        text-align: center;
+        font-size: 60px;
+        color:red;
+        background:white;
+        width: 80px;
+        height: 90px;
+        border-radius:50%;
+        top:10%;
+        margin-left:38% ;
+        font-family: poppins;
+        font-weight: bold;
+    }
+    .locationSelector{
+        text-align: center;
+        top:40px;
+        position: absolute;
+        margin-left: 24%;
+        margin-right: 20%;
+    }
+    .search{
+        left:5px;
+        margin:2% 0px;
+        top:73px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:1150px) {
+    .dropdown{
+            float: left;
+            height:50px;
+            width:250px;
+            font-size:20px;
+            color:#192f60;
+            border: none;
+            border-radius: 0px;
+            margin-right:21px;
+            margin-bottom: 25px;
+    }
+    .locationSelector{
+        text-align: center;
+        top:40px;
+        position: absolute;
+        margin-left: 24%;
+        margin-right: 20%;
+    }
+    .search{
+        position: absolute;
+        left:5px;
+        margin:2% 0px;
+        top:73px;
+    }
+}
+.tileContainer:hover{
+    transform: rotate(5deg);
+}
